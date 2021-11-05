@@ -55,6 +55,7 @@ public class TC01 {
             System.out.println("FAIL: User not logged in");
         }
 
+        driver.quit();
 
     }
 

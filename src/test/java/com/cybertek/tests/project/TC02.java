@@ -20,7 +20,6 @@ public class TC02 {
         String user = "java";
         String pass = "12345";
 
-
         // Finding the element for the login search field
         WebElement loginInput = driver.findElement(By.cssSelector("input[name='USER_LOGIN']"));
 
@@ -50,6 +49,7 @@ public class TC02 {
             System.out.println("Fail");
         }
 
+        driver.quit();
 
     }
 
